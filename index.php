@@ -76,7 +76,14 @@ var_dump($fruits);
 
 echo $fruits[1];
 
+$name = "SL Geek School";
 
+echo strlen($name);
+echo strrev($name);
+
+echo strpos($name,"Geek");
+
+echo str_replace("School","Academy",$name);
 
 ?>  
 </body>
